@@ -1,0 +1,49 @@
+body {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to bottom right, #F2D7D3, #F2EED3, #F3ECEB, #D3F2E4, #DEDAF2);
+    
+}
+
+#email {
+    height: 35px;
+    width: 35px;
+padding: 5px;
+}
+
+#email:hover {
+	box-shadow: 0 0 5px 1px rgba(150, 150, 150, 0.5);
+}
+
+#linkedin {
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+}
+#linkedin:hover {
+	box-shadow: 0 0 5px 1px rgba(150, 150, 150, 0.5);
+}
+
+#photo {
+width: 200px;
+height: 200px;
+transition: transform 2s;
+}
+#photo:hover{
+	transform: rotate(360deg);
+}
+
+.poste {
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: #4C8BB0;
+}
