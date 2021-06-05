@@ -29,6 +29,7 @@ padding: 5px;
 width: 200px;
 height: 200px;
 transition: transform 2s;
+padding-left: 100px;
 }
 #photo:hover{
 	transform: rotate(360deg);
