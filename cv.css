@@ -29,7 +29,12 @@ padding: 5px;
 width: 200px;
 height: 200px;
 transition: transform 2s;
-padding-left: 100px;
+margin-left: 100px;
+border: 2px solid pink;
+  border-radius: 15px;
+  padding: 5px;
+  width: 200px;
+  background-color: black;
 }
 #photo:hover{
 	transform: rotate(360deg);
@@ -47,4 +52,11 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 color: #4C8BB0;
+text-align: center;
+}
+ul, li {
+    text-align: justify;
+}
+.infos {
+    text-align: center;
 }
